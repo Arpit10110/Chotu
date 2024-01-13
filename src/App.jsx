@@ -19,9 +19,9 @@ const App = () => {
     const options = {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
-        "X-RapidAPI-Key": "a9e8bc628emsh9e05d7a06490db9p14d146jsnf3a5189d0076",
-        "X-RapidAPI-Host": "open-ai21.p.rapidapi.com",
+        'content-type': 'application/json',
+        'X-RapidAPI-Key': 'fe06837775mshf8f3169b730fc5bp1d7c07jsnf0b74053e3d2',
+        'X-RapidAPI-Host': 'open-ai21.p.rapidapi.com'
       },
       body: JSON.stringify({
         messages: [
